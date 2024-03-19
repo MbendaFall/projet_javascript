@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #09001d;
+}
+
+.container {
+    display: flex;
+    border: 2px solid #c40094;
+    max-width: 800px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
+    margin-top: 10%;
+}
+
+.sidebar {
+    background-color: #c40094;
+    padding: 20px;
+    width: 25%; /* Largeur réduite */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: auto;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    color: #fff(245, 245, 245);
+    text-decoration: none;
+}
+
+.logout {
+    margin-top: auto;
+}
+
+.logout-btn {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%; /* Prendre toute la largeur */
+}
+
+.content {
+    background-color: #09001d;
+    padding: 20px;
+    width: 75%; /* Largeur réduite */
+}
+
+.content-wrapper {
+    padding: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    color: rgb(247, 234, 234);
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.option {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(48% - 10px); /* 10px pour la marge entre les rectangles */
+}
+
+.centered-option {
+    text-align: center;
+}
+
+.bottom-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-options .option {
+    width: calc(48% - 10px); /* 10px pour la marge entre les rectangles */
+}
+
+.bottom-options .option p {
+    text-align: center;
+}
+
+.maroon-bg {
+    background-color: #c40094;
+    color: #ffffff;
+}
+
+.white-bg {
+    background-color: #c40094;
+}
+
+/* Réduire davantage la largeur du rectangle "Bloquer un joueur" */
+.narrow-option {
+    width: calc(40% - 10px); /* 10px pour la marge entre les deux rectangles */
+    margin: 0 auto; /* Centrer horizontalement */
+}
+
+/* Ajout d'une barre horizontale */
+.horizontal-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #c40094;
+    margin-bottom: 10px;
+}

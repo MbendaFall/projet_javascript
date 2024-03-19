@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    background: #09001d;;
+}
+
+.container {
+    display: flex;
+    border: 2px solid #c40094;
+    width: 70%; /* Largeur ajustée pour la container */
+    height: 70vh; /* Hauteur ajustée pour la container */
+    position: relative; /* Position relative pour le positionnement du rectangle de recherche */
+}
+
+.sidebar {
+    background-color: #c40094;
+    padding: 20px;
+    width: 30%; /* Largeur de la barre latérale */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar header {
+    background-color:#09001d;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: auto;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.logout {
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+.logout-btn p {
+    margin: 0;
+}
+
+.content {
+    background-color: #09001d;
+    padding: 60px;
+    width: 70%; /* Largeur ajustée pour le contenu principal */
+    height: 70%;
+    position: relative; /* Position relative pour le positionnement des rectangles en bas */
+}
+
+.content-wrapper {
+    padding: 20px;
+}
+
+.content h2 {
+    display: none;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    position: absolute; /* Position absolue pour le positionnement */
+    top: 80px; /* Distance du haut */
+    left: 0; /* Alignement à gauche */
+    width: 100%; /* Largeur totale */
+}
+
+.option {
+    background-color: #c40094;
+    padding: 15px; /* Augmenter la hauteur des rectangles */
+    border-radius: 20px;
+    margin-right: 10px; /* Marge à droite pour l'espace entre les rectangles */
+    flex: 1; /* Chaque rectangle prendra autant d'espace que possible */
+    text-align: center;
+}
+
+.option p {
+    margin: 0;
+}
+
+.maroon-bg {
+    background-color: #c40094;
+    color: #82c2e0;
+}
+
+.white-bg {
+    background-color: #fff;
+}
+
+.horizontal-divider {
+    width: 100%;
+    height: 1px;
+    background-color: black; /* Couleur noire pour les traits horizontaux */
+    margin-bottom: 10px;
+}
+
+header img {
+    width: auto;
+    height: 80px;
+}
+
+/* Style du rectangle de recherche */
+.search-box {
+    background-color:#fff; /* Fond blanc */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 20px; /* Bordures arrondies */
+    box-shadow: 0 0 10px rgba(221, 185, 87, 0.2); /* Ombre */
+    position: absolute; /* Position absolue pour le positionnement */
+    top: 10px; /* Distance du haut */
+    right: 300px; /* Distance de la droite */
+    width: 300px; /* Largeur du rectangle de recherche */
+} 
+
+/* Style du texte de recherche */
+.search-text {
+    margin: 0;
+    padding: 0;
+    text-align: debut ;
+    color:black;
+}
+
+/* Style du texte "Aicha DIOP" */
+.additional-text {
+    display: flex; /* Utilisation de flexbox pour aligner les éléments */
+    align-items: center; /* Alignement vertical */
+    position: absolute; /* Position absolue pour le positionnement */
+    top: 5px; /* Distance du haut */
+    right: 50px; /* Distance de la droite */
+    color: #fff; /* Couleur noire */
+}
+
+/* Style de l'image d'Aicha DIOP */
+.image-container img {
+    width: 25px; /* Largeur de l'image */
+    height: auto; /* Hauteur automatique pour maintenir les proportions */
+    margin-right: 10px; /* Marge à droite pour l'espace entre l'image et le texte */
+}
+
+/* Style des rectangles en bas des quatre rectangles */
+.bottom-options {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 75px; /* Distance du bas */
+    left: 15;
+    width: 90%;
+}
+
+.bottom-option {
+    background-color: #fff;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+    height: 120px; /* Hauteur augmentée */
+}
+.start-btn{
+    width: 190px;
+    height: 55px;
+    background: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 200%;
+  }
+.start-btn:hover{
+    background: #09001d;
+    box-shadow: none;
+  }
